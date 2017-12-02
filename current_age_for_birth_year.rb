@@ -1,5 +1,3 @@
-def age (birth_year)
-  current_year=Time.now.year
-  answer = current_year-birth_year
+def current_age_for_birth_year(birth_year)
+  Time.now.year - birth_year
 end
-return answer
